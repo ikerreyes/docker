@@ -22,3 +22,8 @@ To publish and image to dockerhub::
 If a non-existing base image needs to be created,
 tools like `Deboostrap <https://wiki.debian.org/Debootstrap>`_
 or `supermin <https://github.com/libguestfs/supermin>`_ are helpful.
+
+Examples
+--------
+
+- `funbox <https://hub.docker.com/r/wernight/funbox>`_: fun images

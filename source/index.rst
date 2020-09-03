@@ -56,6 +56,11 @@ To enable a *user* to execute docker commands without being root do::
    docker run hello-world
 
 
+Other links
+------------
+
+- `A Makefile for your dockerfiles <https://philpep.org/blog/a-makefile-for-your-dockerfiles>`_
+
 Indices and tables
 ==================
 
