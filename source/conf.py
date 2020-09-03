@@ -45,6 +45,7 @@ rst_prolog = """
    :language: sh
 .. role:: dk(code)
    :language: docker
+.. role:: dir(file)
 """
 
 # -- Options for HTML output -------------------------------------------------

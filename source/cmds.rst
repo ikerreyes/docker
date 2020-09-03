@@ -32,3 +32,18 @@ Troubleshoot your services with::
     docker service ls # list services
     docker service logs -f <service> # see service logs
     docker service ps --no-trunc <service> # useful is service is not running
+
+Monitor and debug
+-----------------
+
+Debug::
+
+    docker inspect
+    docker logs
+
+Monitor::
+
+
+    docker stats
+    docker top
+

@@ -7,6 +7,9 @@ Welcome to Docker's documentation!
 ==================================
 
 Docker is a containerization software that allows to encapsulate applications.
+In other words, it offers a system to create images and to run them in
+an isolated environment.
+It uses a client-server architecture.
 
 Containers share OS and some libraries and/or with the host, unlike virtual
 machines that hold their own OS.
@@ -15,6 +18,7 @@ machines that hold their own OS.
    :maxdepth: 2
    :caption: Contents:
 
+   intro
    images
    containers
    dockerfile
