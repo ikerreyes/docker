@@ -7,7 +7,7 @@ Notes on Docker.
 Build
 -----
 
-To build this documentation use `sphinx <https://www.sphinx-doc.org/en/master/>`.
+To build this documentation use `sphinx <https://www.sphinx-doc.org/en/master/>`_.
 E.g.::
 
     make html
