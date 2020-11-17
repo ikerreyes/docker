@@ -4,27 +4,35 @@
 Swarm
 =====
 
-Docker swarm is the cluster management system (similar to Kubernetes) for
+Docker swarm is the cluster management (orchestration) system (similar to Kubernetes) for
 Docker containers. It make use of stacks which are files that define how
 services relate.
 
 Docker Swarm runs services (containers). Those services can be grouped into
 stacks.
 
+`Docker machines <https://docs.docker.com/machine/overview/>`_
+can be used to configure and manage one or more docker engines.
 
 Nodes
 -----
 
-Nodes are the different nodes (workers or managers in the swarm).
+A swarm cluster is formed by the different nodes
+(*workers* or *managers* in the swarm).
 
 Useful commands are::
 
     docker node ls  # list nodes
     docker node rm <node> # remove a node
 
+Communication between nodes is enforced with TLS.
+It supports rolling updates.
 
 Stacks
 ------
+
+In a swarm cluster, multiple containers can be part of the same
+**stack** when they are defined in the *compose* file.
 
 Docker stacks are YAML files that indicate how the different containers are
 built and, if needed, how they do relate.

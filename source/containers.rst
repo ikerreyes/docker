@@ -37,6 +37,12 @@ On **running** containers you can::
 	docker logs <container>  # show logs of container
 	docker inspect <container>
 
+.. note::
+
+   `Docker logging drivers <https://docs.docker.com/engine/admin/logging/overview/>`_
+   allow to set a logging policy to forward the logs to the corresponding
+   driver (syslog, journald, ...).
+
 Containers can be **managed** as::
 
 	docker ps # list running containers
