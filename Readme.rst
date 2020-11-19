@@ -2,7 +2,7 @@
 Readme
 ======
 
-Notes on Docker.
+Notes on Docker: see on `RTD <http://ikerdocs-docker.rtfd.io/>`_.
 
 Build
 -----
